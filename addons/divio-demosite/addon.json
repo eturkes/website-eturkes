@@ -1,0 +1,6 @@
+{
+    "installed-apps": [
+        "divio_demosite"
+    ], 
+    "package-name": "divio-demosite"
+}
