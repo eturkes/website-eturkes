@@ -4,7 +4,7 @@ This is the source code for my website. Feel free to use any of the code in your
 
 # Setup
 
-1. `google-drive-ocamlfuse -label eturkes@bu.edu gdrive`
+1. `google-drive-ocamlfuse -label eturkes@bu.edu ~/gdrive`
    * Database and media are stored in a private Google Drive.
 1. `git clone https://github.com/eturkes/website-eturkes.git`
 1. `cp -R ~/gdrive/Documents/projects/website-eturkes website-eturkes/binary`
@@ -27,7 +27,7 @@ This is the source code for my website. Feel free to use any of the code in your
 
 # Backup
 
-1. `google-drive-ocamlfuse -label eturkes@bu.edu gdrive`
+1. `google-drive-ocamlfuse -label eturkes@bu.edu ~/gdrive`
 1. `mv binary/database.dump binary/media.tar.gz binary/old`
 1. `docker exec websiteeturkes_db_1 pg_dump -U postgres db > binary/database.dump`
 1. `cd data`
