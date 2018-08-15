@@ -35,4 +35,5 @@ This is the source code for my website. Feel free to use any of the code in your
 1. `sudo chown suse1:users ../binary/media.tar.gz`
 1. `cd`
 1. `cp -R website-eturkes/binary/* website-eturkes/binary/.[!.]* ~/gdrive/Documents/projects/website-eturkes`
+   * Use recursive glob to utilize Google Drive's version control. Works with Bash but not Zsh, have not tested other shells.
 1. `fusermount -u /var/nocow/$HOME/gdrive`
