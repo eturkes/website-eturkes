@@ -7,9 +7,7 @@ This is the source code for my website. Feel free to use any of the code in your
 1. `google-drive-ocamlfuse -label eturkes@bu.edu gdrive`
    * Database and media are stored in a private Google Drive.
 1. `git clone https://github.com/eturkes/website-eturkes.git`
-1. `mkdir website-eturkes/binary`
-1. `cp -R ~/gdrive/Documents/projects/website-eturkes/* ~/gdrive/Documents/projects/website-eturkes/.[!.]* website-eturkes/binary`
-   * This works in Bash but not Zsh. Have not tested other shells.
+1. `cp -R ~/gdrive/Documents/projects/website-eturkes website-eturkes/binary`
 1. `fusermount -u /var/nocow/$HOME/gdrive`
    * fusermount doesn't seem to work with symlinks. Google Drive is mounted here to avoid Btrfs snapshots.
 1. `cd website-eturkes`
@@ -30,7 +28,6 @@ This is the source code for my website. Feel free to use any of the code in your
 # Backup
 
 1. `google-drive-ocamlfuse -label eturkes@bu.edu gdrive`
-1. `mkdir binary/old`
 1. `mv binary/database.dump binary/media.tar.gz binary/old`
 1. `docker exec websiteeturkes_db_1 pg_dump -U postgres db > binary/database.dump`
 1. `cd data`
