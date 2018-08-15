@@ -23,7 +23,7 @@ This is the source code for my website. Feel free to use any of the code in your
 1. `docker-compose run --rm web gulp build`
 1. `docker-compose run --rm web python manage.py collectstatic`
    * Not needed when running the test server.
-1. `tar -zxf binary/media.tar.gz -C data/`
+1. `sudo tar -zxf binary/media.tar.gz -C data/`
    * Docker assigns root ownership to the data directory.
 1. `docker-compose up`
 
