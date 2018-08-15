@@ -1,8 +1,8 @@
 # Emir's Personal Website
 
-This is the source code for my website. Feel free to use any of the code in your project, just check ACKNOWLEDGEMENTS and LICENSE for copyright info. Included below are the steps for building and backing up the production web server. It makes some assumptions about system configuration, so tailor to your needs. Tested on openSUSE 15.
+This is the source code for my website running Django CMS. Feel free to use any of the code in your project, just check ACKNOWLEDGEMENTS and LICENSE for copyright info. Included below are the steps for building and backing up the production web server. It makes some assumptions about system configuration, so tailor to your needs. Tested on openSUSE 15.
 
-# Setup
+# Building
 
 1. `google-drive-ocamlfuse -label eturkes@bu.edu ~/gdrive`
    * Database and media are stored in a private Google Drive.
