@@ -7,10 +7,10 @@ This is the source code for my website (eturkes.com), which runs on Django CMS. 
 1. `google-drive-ocamlfuse -label eturkes@bu.edu ~/gdrive`
    * Database and media are stored in a private Google Drive.
 1. `git clone https://github.com/eturkes/website-eturkes.git`
-1. `cp -R ~/gdrive/Documents/projects/website-eturkes website-eturkes/binary`
+1. `cd website-eturkes`
+1. `cp -R ~/gdrive/Documents/projects/website-eturkes binary`
 1. `fusermount -u /var/nocow/$HOME/gdrive`
    * fusermount doesn't seem to work with symlinks. Google Drive is mounted here to avoid Btrfs snapshots.
-1. `cd website-eturkes`
 1. `docker-compose pull`
 1. `docker-compose build`
 1. `docker-compose up -d db`
