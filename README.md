@@ -32,8 +32,8 @@ This is the source code for my website (eturkes.com), which runs on Django CMS. 
 1. `docker exec websiteeturkes_db_1 pg_dump -U postgres db > binary/database.dump`
 1. `cd data`
 1. `sudo tar -zcf ../binary/media.tar.gz ./`
-1. `sudo chown suse1:users ../binary/media.tar.gz`
-1. `cd`
-1. `cp -R website-eturkes/binary/* website-eturkes/binary/.[!.]* ~/gdrive/Documents/projects/website-eturkes`
+1. `cd ..`
+1. `sudo chown suse1:users binary/media.tar.gz`
+1. `cp -R binary/* binary/.[!.]* ~/gdrive/Documents/projects/website-eturkes`
    * Use recursive glob to utilize Google Drive's version control. Works with Bash but not Zsh, have not tested other shells.
 1. `fusermount -u /var/nocow/$HOME/gdrive`
