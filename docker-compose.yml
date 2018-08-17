@@ -4,9 +4,11 @@ web:
   - "db:postgres"
  ports:
   - "80:80"
+  - "443:443"
  volumes:
   - ".:/app:rw"
   - "./data:/data:rw"
+  - "/etc/certbot/:/etc/letsencrypt"
  command: start web
  env_file: .env-local
 
