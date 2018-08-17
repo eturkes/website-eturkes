@@ -8,7 +8,7 @@ web:
  volumes:
   - ".:/app:rw"
   - "./data:/data:rw"
-  - "/etc/certbot/:/etc/letsencrypt"
+  - "/etc/certbot/:/etc/letsencrypt:ro"
  command: start web
  env_file: .env-local
 
