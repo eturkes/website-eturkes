@@ -8,11 +8,6 @@
 FROM aldryn/base-project:py3-3.23
 # </DOCKER_FROM>
 
-# </SSL>
-COPY ssl/nginx.conf /etc/nginx/nginx.conf
-COPY ssl/snippets/letsencrypt.conf /etc/nginx/snippets/letsencrypt.conf
-COPY ssl/snippets/ssl-params.conf /etc/nginx/snippets/ssl-params.conf
-
 # <NODE>
 ADD tools/build /stack/boilerplate
 
