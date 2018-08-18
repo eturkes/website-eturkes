@@ -3,7 +3,6 @@
 # Run from root of project
 
 google-drive-ocamlfuse -label eturkes@bu.edu ~/gdrive \
-    && cd website-eturkes \
     && cp -R ~/gdrive/Documents/projects/website-eturkes binary \
     && fusermount -u /var/nocow/$HOME/gdrive \
     && docker-compose pull \
