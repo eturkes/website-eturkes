@@ -13,5 +13,4 @@ google-drive-ocamlfuse -label eturkes@bu.edu ~/gdrive \
     && docker-compose run web start migrate \
     && docker-compose run --rm web gulp build \
     && docker-compose run --rm web python manage.py collectstatic \
-    && sudo tar -zxf binary/media.tar.gz -C data/ \
-    && docker-compose up
+    && sudo tar -zxf binary/media.tar.gz -C data
