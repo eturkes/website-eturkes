@@ -1,6 +1,7 @@
 #!/bin/sh
 # Backup the web server
 # Run from root of project
+# Use while server is running
 
 google-drive-ocamlfuse -label eturkes@bu.edu ~/gdrive \
     && mv binary/database.dump binary/media.tar.gz binary/old \

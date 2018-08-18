@@ -1,6 +1,7 @@
 #!/bin/sh
 # Build the web server
 # Run from root of project
+# After completion, launch server with docker-compose up
 
 google-drive-ocamlfuse -label eturkes@bu.edu ~/gdrive \
     && cp -R ~/gdrive/Documents/projects/website-eturkes binary \
