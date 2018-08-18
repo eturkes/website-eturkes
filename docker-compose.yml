@@ -2,13 +2,13 @@ web:
  build: .
  links:
   - "db:postgres"
- ports:
-  - "80:80"
  volumes:
   - ".:/app:rw"
   - "./data:/data:rw"
  command: start web
  env_file: .env-local
+ expose:
+  - "80"
 
 db:
  image: postgres:9.4
