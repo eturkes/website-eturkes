@@ -2,8 +2,8 @@
 # Clean up Docker files
 # rebuild.sh must be run to use the server again
 
-containers=`docker ps -q`
-if [ -n "$containers" ]; then
+CONTAINERS=`docker ps -q`
+if [ -n "$CONTAINERS" ]; then
     docker stop $(docker ps -q)
 fi
 
