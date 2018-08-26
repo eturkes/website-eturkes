@@ -35,6 +35,7 @@ aldryn_addons.settings.load(locals())
 # all django settings can be altered here
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+CMS_PERMISSION = True
 
 INSTALLED_APPS.extend([
     # add you project specific apps here
