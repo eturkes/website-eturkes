@@ -7,7 +7,7 @@ django CMS explorer https://github.com/divio/django-cms-explorer.git
 
 # Respective copyright notices below:
 
-###############################################################################
+########################################################################################
 
 # django CMS demo https://github.com/divio/django-cms-demo.git
 
@@ -36,7 +36,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-###############################################################################
+########################################################################################
 
 # django CMS explorer https://github.com/divio/django-cms-explorer.git
 # (modified from the original)
@@ -441,4 +441,4 @@ public licenses.
 Creative Commons may be contacted at creativecommons.org.
 
 
-###############################################################################
+########################################################################################
