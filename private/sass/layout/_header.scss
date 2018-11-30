@@ -21,6 +21,7 @@
             width: 210px;
             height: $navbar-height;
             background: no-repeat left center;
+	    @include img-retina("../img/emir-boston-cropped.png", "../img/emir-boston-cropped.png", 210px, $navbar-height);
         }
     }
     // general navbar items
