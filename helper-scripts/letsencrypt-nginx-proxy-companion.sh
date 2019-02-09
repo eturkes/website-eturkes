@@ -1,4 +1,5 @@
 #!/bin/sh
+
 # Step 2 in running an SSL reverse proxy
 
 docker run -d \

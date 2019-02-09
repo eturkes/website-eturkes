@@ -1,4 +1,5 @@
 #!/bin/sh
+
 # Rebuild the web server
 # Run from root of project
 # After completion, launch server with docker-compose up
