@@ -2,7 +2,7 @@ This project contains content from the following:
 
 django CMS demo https://github.com/divio/django-cms-demo.git
 django CMS explorer https://github.com/divio/django-cms-explorer.git
-(modified from the original)
+(the above modified from the original)
 
 Respective copyright notices below:
 
@@ -38,7 +38,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ########################################################################################
 
 # django CMS explorer https://github.com/divio/django-cms-explorer.git
-# (modified from the original)
+# (the above modified from the original)
 
 The Explorer Theme and its content is licensed under a Creative Commons 
 Attribution 4.0 International License.
