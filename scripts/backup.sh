@@ -12,4 +12,4 @@ google-drive-ocamlfuse -label eturkes@bu.edu ~/gdrive \
     && cd .. \
     && sudo chown suse1:users gdrive/media.tar.gz \
     && cp -R gdrive/* gdrive/.[!.]* ~/gdrive/Documents/projects/website-eturkes \
-    && fusermount -u /var/nocow/$HOME/gdrive
+    && fusermount -u ~/gdrive

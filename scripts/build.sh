@@ -6,7 +6,7 @@
 
 google-drive-ocamlfuse -label eturkes@bu.edu ~/gdrive \
     && cp -R ~/gdrive/Documents/projects/website-eturkes gdrive \
-    && fusermount -u /var/nocow/$HOME/gdrive \
+    && fusermount -u ~/gdrive \
     && docker-compose pull \
     && docker-compose build \
     && docker-compose up -d db \
