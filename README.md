@@ -1,5 +1,5 @@
 # Emir's Personal Website
-#### *This project is deployable but not feature complete*
+#### *The information here is up-to-date*
 
 This is the source code for my website [eturkes.com](https://eturkes.com), which runs on Django CMS.
 Feel free to use any of the code in your project, just check NOTICE and LICENSE for copyright info.
