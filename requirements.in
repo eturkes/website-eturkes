@@ -28,4 +28,10 @@ aldryn-apphooks-config>=0.4.1
 aldryn-translation-tools==0.2.1
 django-spurl==0.6.5
 certifi==2017.11.05
-
+django-sekizai<=1.1.0
+django-classy-tags<=1.0.0
+django-storages<1.9
+django-bootstrap3<=9.1.0
+djangocms-attributes-field<=1.2.0
+django-haystack<=2.8.1
+django-parler<=2.1
