@@ -1,5 +1,5 @@
 # Emir's Personal Website
-#### *The information here is up-to-date*
+#### *This code is no longer maintained, please see [eturkes-hugo](https://github.com/eturkes/eturkes-hugo)*
 
 This is the source code for my website [eturkes.com](https://eturkes.com), which runs on Django CMS.
 Feel free to use any of the code in your project, just check NOTICE and LICENSE for copyright info.
